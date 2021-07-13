@@ -193,50 +193,38 @@ const Contact = () => (
       <br></br>
       <p>Email: dtoch123@gmail.com</p>
       <p>Phone: 313-675-2860</p>
-      <br></br>
-      <br></br>
-      <p>............ Insert social icons here .............</p>
     </Container>
-    {/* <Container>
-    <a href="https://www.facebook.com/daniel.atochejuarez" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/dee_jaurez" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-linkedin"></a>
-    <a href="#" class="fa fa-whatsapp"></a>
-    <a href="#" class="fa fa-pinterest"></a>
-    <a href="#" class="fa fa-github"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <a href="#" class="fa fa-soundcloud"></a>
-    </Container> */}
+
     <Container>
       <Row>
-        <Col xs={2}>
+        <Col xs={1}>
           <a
             href="https://www.facebook.com/daniel.atochejuarez"
             class="fa fa-facebook"
           ></a>
         </Col>
-        <Col xs={2}>
+        <Col xs={1}>
           <a href="https://twitter.com/dee_jaurez" class="fa fa-twitter"></a>
         </Col>
-        <Col xs={2}>
+        <Col xs={1}>
           <a href="#" class="fa fa-instagram"></a>
         </Col>
-        <Col xs={2}>
+        <Col xs={1}>
           <a href="#" class="fa fa-linkedin"></a>
         </Col>
       </Row>
       <br></br>
       <Row>
-        <Col xs={2}>
+        <Col xs={1}>
           <a href="#" class="fa fa-github"></a>
         </Col>
-        <Col xs={2}>
+        <Col xs={1}>
           <a href="#" class="fa fa-whatsapp"></a>
         </Col>
-        <Col xs={2}>
+        <Col xs={1}>
           <a href="#" class="fa fa-pinterest"></a>
         </Col>
-        <Col xs={2}>
+        <Col xs={1}>
           <a href="#" class="fa fa-soundcloud"></a>
         </Col>
       </Row>
