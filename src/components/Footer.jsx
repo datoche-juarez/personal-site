@@ -20,9 +20,9 @@ const Styles = styled.div`
   }
 `;
 
-export const NavigationBar = () => (
+export const Footer = () => (
   <Styles>
-    <Navbar expand="lg">
+    <Navbar expand="lg" style={{position:'sticky'}}>
       <Navbar.Brand href="/">DAJ</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -39,12 +39,12 @@ export const NavigationBar = () => (
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link to="/projects">Projects</Link>
+              <Link to="/about">Projects</Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link to="/blog">Blog</Link>
+              <Link to="/about">Blog</Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
