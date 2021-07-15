@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   .navbar {
-    background-color: #000000;
+    background-color: #535353;
   }
 
   a,
@@ -15,7 +15,7 @@ const Styles = styled.div`
     color: #ffffff;
 
     &:hover {
-      color: #ff6347;
+      color: #ed2224;
     }
   }
 `;
