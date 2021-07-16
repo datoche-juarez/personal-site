@@ -1,4 +1,4 @@
-html {
+html, body, #root {
   height: 100%;
 }
 
@@ -9,6 +9,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+ }
+
+.footer {
+  margin-top: auto;
 }
 
 code {
