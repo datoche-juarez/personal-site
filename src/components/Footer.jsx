@@ -22,7 +22,7 @@ const Styles = styled.div`
 
 export const Footer = () => (
   <Styles>
-    <Navbar expand="lg" style={{position:'sticky'}}>
+    <Navbar expand="lg" style={{ position: "sticky" }}>
       <Navbar.Brand href="/">DAJ</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -52,6 +52,7 @@ export const Footer = () => (
               <Link to="/contact">Contact</Link>
             </Nav.Link>
           </Nav.Item>
+          <p class="text-muted">&copy; Daniel Atoche-Juarez</p>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
