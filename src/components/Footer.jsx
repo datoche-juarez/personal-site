@@ -52,7 +52,7 @@ export const Footer = () => (
               <Link to="/contact">Contact</Link>
             </Nav.Link>
           </Nav.Item>
-          <p class="text-muted">&copy; Daniel Atoche-Juarez</p>
+          <p class="text-white">&copy; Daniel Atoche-Juarez</p>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
