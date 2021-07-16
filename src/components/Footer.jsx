@@ -2,10 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
+// import "../src/App.css";
 
 const Styles = styled.div`
   .navbar {
     background-color: #535353;
+    // position: sticky;
+    // flex-direction: column;
+    // bottom: 0;
+   
   }
 
   a,
@@ -21,8 +26,9 @@ const Styles = styled.div`
 `;
 
 export const Footer = () => (
+  <div id="dansFooter" style={{marginTop: "auto"}}>
   <Styles>
-    <Navbar expand="lg" style={{ position: "sticky" }}>
+    <Navbar expand="lg" >
       <Navbar.Brand href="/">DAJ</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -57,4 +63,5 @@ export const Footer = () => (
       </Navbar.Collapse>
     </Navbar>
   </Styles>
+  </div>
 );
