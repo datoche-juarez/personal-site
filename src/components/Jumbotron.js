@@ -30,14 +30,7 @@ export const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container style={{ color: "#000" }}>
-        <h1>Join Us</h1>
-        <p>
-          In building a network of resources focusing on <br></br>
-          housing and employment for former offendors.
-          {/* that <br></br>
-          have changed their lives around and deserve an opp-<br></br> 
-          ortunity to move on with their lives. */}
-        </p>
+        <h1 style={{color: "#901e33"}}>Merging code and design to create authentic UX/UI...</h1>
       </Container>
     </Jumbo>
   </Styles>
