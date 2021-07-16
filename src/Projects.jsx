@@ -6,5 +6,9 @@ export const Projects = () => (
     <p>
         Projects section coming soon...
     </p>
+    <p>
+      For now, check out my projects on GitHub...
+    </p>
+    <a href="#" class="fa fa-github"></a>
   </div>
 );
