@@ -30,27 +30,27 @@ export const Footer = () => (
           <Nav className="ml-auto">
             <Nav.Item>
               <Nav.Link>
-                <Link to="/">Home</Link>
+                <Link to="/">HOME</Link>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link>
-                <Link to="/about">About</Link>
+                <Link to="/about">ABOUT</Link>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link>
-                <Link to="/about">Projects</Link>
+                <Link to="/about">PROJECTS</Link>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link>
-                <Link to="/about">Blog</Link>
+                <Link to="/about">BLOG</Link>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">CONTACT</Link>
               </Nav.Link>
             </Nav.Item>
             <p class="text-white">&copy; Daniel Atoche-Juarez</p>
