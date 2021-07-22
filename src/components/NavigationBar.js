@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap";
 
 const Styles = styled.div`
   .navbar {
-    background-color: #535353;
+    background-color: #292c2f;
   }
 
   a,
