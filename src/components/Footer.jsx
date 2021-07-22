@@ -92,17 +92,15 @@ export const Footer = () => (
   <div class="footer-left">
 
     <p class="footer-links">
-      <a class="link-1" href="#">Home</a>
+      <a class="link-1" href="/">HOME</a>
 
-      <a href="#">Blog</a>
+      <a href="/about">ABOUT</a>
 
-      <a href="#">Pricing</a>
+      <a href="/projects">PROJECTS</a>
 
-      <a href="#">About</a>
+      <a href="/blog">BLOG</a>
 
-      <a href="#">Faq</a>
-
-      <a href="#">Contact</a>
+      <a href="/contact">CONTACT</a>
     </p>
 
     <p> &copy; Daniel Atoche-Juarez 2021</p>
