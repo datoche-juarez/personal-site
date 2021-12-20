@@ -20,15 +20,22 @@ const Styles = styled.div`
       color: #ed2224;
     }
   }
+  .navbar-brand {
+    float: left;
+  }
+  .container {
+    margin: auto;
+  }
+
 `;
 
 export const NavigationBar = () => (
   <Styles>
-    <Navbar expand="lg">
-      <Navbar.Brand href="/">DAJ</Navbar.Brand>
-      <Container>
-        <div className="w-50 small text-center align-self-end">
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar expand="lg" variant="dark" >
+    <Container>
+        <div className="w-100 small text-right align-self-end">
+        <Navbar.Brand href="/">DAJ</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav"  />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Item>
