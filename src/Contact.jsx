@@ -36,7 +36,7 @@ const Contact = () => (
       <br></br>
       <Row>
         <Col xs={1}>
-          <a href="#" class="fa fa-github"></a>
+          <a href="https://github.com/datoche-juarez/" class="fa fa-github"></a>
         </Col>
         <Col xs={1}>
           <a href="#" class="fa fa-whatsapp"></a>
