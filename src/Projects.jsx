@@ -1,4 +1,6 @@
 import React from "react";
+import "./Projects.css";
+import { Button } from "react-bootstrap";
 
 export const Projects = () => (
   <div>
@@ -9,6 +11,8 @@ export const Projects = () => (
     <p>
       For now, check out my projects on GitHub...
     </p>
-    <a href="#" class="fa fa-github"></a>
+    // TODO: Add a square github icon for projects..
+    {/* <a href="#" class="fa fa-github"></a> */}
+    <Button variant= "dark" href="https://github.com/datoche-juarez/" className="project-button">Github</Button>
   </div>
 );
