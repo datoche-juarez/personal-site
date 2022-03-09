@@ -26,11 +26,14 @@ const Contact = () => (
         <Col xs={1}>
           <a href="https://twitter.com/dee_jaurez" class="fa fa-twitter"></a>
         </Col>
-        <Col xs={1}>
+        {/* <Col xs={1}>
           <a href="#" class="fa fa-instagram"></a>
-        </Col>
+        </Col> */}
         <Col xs={1}>
-          <a href="#" class="fa fa-linkedin"></a>
+          <a
+            href="https://www.linkedin.com/in/daniel-atoche-juarez-7272a3233/"
+            class="fa fa-linkedin"
+          ></a>
         </Col>
       </Row>
       <br></br>
@@ -39,13 +42,13 @@ const Contact = () => (
           <a href="https://github.com/datoche-juarez/" class="fa fa-github"></a>
         </Col>
         <Col xs={1}>
-          <a href="#" class="fa fa-whatsapp"></a>
+          <a href="https://wa.me/13136752860" class="fa fa-whatsapp"></a>
         </Col>
-        <Col xs={1}>
+        {/* <Col xs={1}>
           <a href="#" class="fa fa-pinterest"></a>
-        </Col>
+        </Col> */}
         <Col xs={1}>
-          <a href="#" class="fa fa-soundcloud"></a>
+          <a href="https://soundcloud.com/daniel-atoche-juarez" class="fa fa-soundcloud"></a>
         </Col>
       </Row>
     </Container>
