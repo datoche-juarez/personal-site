@@ -63,4 +63,6 @@
 .fa-soundcloud {
   background: #ff3a00;
   color: white;
+  justify-content: center;
+  align-items: center;
 }
