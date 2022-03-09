@@ -11,7 +11,7 @@ export const Projects = () => (
     <p>
       For now, check out my projects on GitHub...
     </p>
-    // TODO: Add a square github icon for projects..
+     {/*TODO: Add a square github icon for projects..*/}
     {/* <a href="#" class="fa fa-github"></a> */}
     <Button variant= "dark" href="https://github.com/datoche-juarez/" className="project-button">Github</Button>
   </div>
