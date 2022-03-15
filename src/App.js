@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./Home.jsx";
+import GridHome from "./GridHome.js";
 import { About } from "./About.jsx";
 import { Projects } from "./Projects.jsx";
 import { Blog } from "./Blog.jsx";
@@ -20,6 +21,7 @@ function App() {
         <Layout>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/gridhome" component={GridHome} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
             <Route path="/blog" component={Blog} />

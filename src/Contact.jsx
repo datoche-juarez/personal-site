@@ -6,7 +6,7 @@ import "./Contact.css";
 
 const Contact = () => (
   <div className="container p-3 my-3 light text-black">
-    <Container className="justify-content-lg-center">
+    <Container className="justify-content-lg-left">
       <h1>Contact</h1>
       <br></br>
       <h5>Contact info:</h5>
