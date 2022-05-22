@@ -11,10 +11,9 @@ const Contact = () => (
       <br></br>
       <h5>Contact info:</h5>
       <br></br>
-      <p>Email: danatochejuarez@gmail.com</p>
-      <p>Phone: 313-675-2860</p>
+      <p>Email: <a href="mailto:danatochejuarez@gmail.com">danatochejuarez@gmail.com</a></p>
+      <p>Phone: <a href="tel:3136752860">313-675-2860</a></p>
     </Container>
-
     <Container>
       <Row>
         <Col xs={1}>
