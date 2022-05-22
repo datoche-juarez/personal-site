@@ -1,12 +1,10 @@
 import React from "react";
 import { Jumbotron as Jumbo, Container } from "react-bootstrap";
 import styled from "styled-components";
-import skyline from "../assets/skyline.jpg";
 import DAJBanner from "../assets/DAJBanner.jpg";
 
 const Styles = styled.div`
   // .jumbo {
-  //   background: url(${skyline}) no-repeat fixed bottom;
   //   background-size: cover;
   //   color: #0000;
   //   height: 330px;
