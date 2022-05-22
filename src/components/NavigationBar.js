@@ -53,11 +53,11 @@ export const NavigationBar = () => (
                   <Link to="/projects">PROJECTS</Link>
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item>
+              {/* <Nav.Item>
                 <Nav.Link>
                   <Link to="/blog">BLOG</Link>
                 </Nav.Link>
-              </Nav.Item>
+              </Nav.Item> */}
               <Nav.Item>
                 <Nav.Link>
                   <Link to="/contact">CONTACT</Link>

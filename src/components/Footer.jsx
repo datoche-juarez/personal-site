@@ -26,7 +26,7 @@ export const Footer = () => (
 
       <a href="/projects">PROJECTS</a>
 
-      <a href="/blog">BLOG</a>
+      {/* <a href="/blog">BLOG</a> */}
 
       <a href="/contact">CONTACT</a>
     </p>

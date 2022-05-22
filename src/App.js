@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./Home.jsx";
 import { About } from "./About.jsx";
 import { Projects } from "./Projects.jsx";
-import { Blog } from "./Blog.jsx";
+// import { Blog } from "./Blog.jsx";
 import Contact from "./Contact.jsx";
 import { NoMatch } from "./NoMatch.jsx";
 import { Layout } from "./components/Layout.jsx";
@@ -22,7 +22,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
-            <Route path="/blog" component={Blog} />
+            {/* <Route path="/blog" component={Blog} /> */}
             <Route path="/contact" component={Contact} />
             <Route component={NoMatch} />
           </Switch>
