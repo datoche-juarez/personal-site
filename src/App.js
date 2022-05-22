@@ -24,7 +24,8 @@ function App() {
             <Route path="/projects" component={Projects} />
             {/* <Route path="/blog" component={Blog} /> */}
             <Route path="/contact" component={Contact} />
-            <Route component={NoMatch} />
+            {/* <Route component={NoMatch} /> */}
+            <Route component={Home} />
           </Switch>
         </Layout>
         <Footer />
