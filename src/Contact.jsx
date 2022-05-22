@@ -11,7 +11,7 @@ const Contact = () => (
       <br></br>
       <h5>Contact info:</h5>
       <br></br>
-      <p>Email: dtoch123@gmail.com</p>
+      <p>Email: danatochejuarez@gmail.com</p>
       <p>Phone: 313-675-2860</p>
     </Container>
 
