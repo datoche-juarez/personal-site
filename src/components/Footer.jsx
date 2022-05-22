@@ -10,9 +10,10 @@ export const Footer = () => (
   <div class="footer-right">
 
     <a href="https://www.facebook.com/daniel.atochejuarez"><i class="fa fa-facebook"></i></a>
-    <a href="https://twitter.com/dee_jaurez"><i class="fa fa-twitter"></i></a>
+    {/* <a href="https://twitter.com/dee_jaurez"><i class="fa fa-twitter"></i></a> */}
     <a href="https://www.linkedin.com/in/daniel-atoche-juarez-7272a3233/"><i class="fa fa-linkedin"></i></a>
     <a href="https://github.com/datoche-juarez"><i class="fa fa-github"></i></a>
+    <a href="https://wa.me/13136752860"><i class="fa fa-whatsapp"></i></a>
 
   </div>
 
