@@ -23,13 +23,15 @@ export const Projects = () => (
     <Container style={{ paddingTop: "20px", paddingBottom: "30px" }}>
       <CardGroup>
         <Card>
-          <Card.Img variant="top" src={RAAScreenshot} style={{ height: '45%'}} />
+          <Card.Img
+            variant="top"
+            src={RAAScreenshot}
+            style={{ height: "45%" }}
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>RAALive.com</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              An online auction platform for charities to host events.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -37,12 +39,16 @@ export const Projects = () => (
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src={PingScreenshot} style={{ height: '45%'}} />
+          <Card.Img
+            variant="top"
+            src={PingScreenshot}
+            style={{ height: "45%" }}
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Ping Software USA</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              A company website for a tech startup that offers a variety of
+              software and web development services.{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -50,13 +56,15 @@ export const Projects = () => (
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src={CordialScreenshot} style={{ height: '45%' }}/>
+          <Card.Img
+            variant="top"
+            src={CordialScreenshot}
+            style={{ height: "45%" }}
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>The Cordial Shoppe</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              An e-commerce website for a local business in Taylor, MI.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
