@@ -8,21 +8,10 @@ import CordialScreenshot from "./assets/CSScreenshot.png";
 export const Projects = () => (
   <div>
     <h1>Projects:</h1>
-    <p>Projects section coming soon...</p>
-    <p>For now, check out my projects on GitHub...</p>
-    {/*TODO: Add a square github icon for projects..*/}
-    {/* <a href="#" class="fa fa-github"></a> */}
-    <Button
-      variant="dark"
-      href="https://github.com/datoche-juarez/"
-      target="_blank"
-      className="project-button"
-    >
-      Github
-    </Button>
-    <Container style={{ paddingTop: "20px", paddingBottom: "30px"  }}>
+    
+    <Container style={{ paddingTop: "20px", paddingBottom: "30px" }}>
       <CardGroup>
-        <Card style={{margin: '5px'}}>
+        <Card>
           <Card.Img
             variant="top"
             src={RAAScreenshot}
@@ -38,7 +27,7 @@ export const Projects = () => (
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card style={{margin: '5px'}}>
+        <Card>
           <Card.Img
             variant="top"
             src={PingScreenshot}
@@ -55,7 +44,7 @@ export const Projects = () => (
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card style={{margin: '5px'}}>
+        <Card>
           <Card.Img
             variant="top"
             src={CordialScreenshot}
@@ -73,5 +62,17 @@ export const Projects = () => (
         </Card>
       </CardGroup>
     </Container>
+    <p>As these projects are done for private clients, the GitHub repositories are private. Feel free to contact me for further inquiries.</p>
+    <p>For other examples of my work, visit my GitHub:</p>
+    {/*TODO: Add a square github icon for projects..*/}
+    {/* <a href="#" class="fa fa-github"></a> */}
+    <Button
+      variant="dark"
+      href="https://github.com/datoche-juarez/"
+      target="_blank"
+      className="project-button"
+    >
+      Github
+    </Button>
   </div>
 );
