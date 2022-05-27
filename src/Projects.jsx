@@ -20,9 +20,9 @@ export const Projects = () => (
     >
       Github
     </Button>
-    <Container style={{ paddingTop: "20px", paddingBottom: "30px" }}>
+    <Container style={{ paddingTop: "20px", paddingBottom: "30px"  }}>
       <CardGroup>
-        <Card>
+        <Card style={{margin: '5px'}}>
           <Card.Img
             variant="top"
             src={RAAScreenshot}
@@ -38,7 +38,7 @@ export const Projects = () => (
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card style={{margin: '5px'}}>
           <Card.Img
             variant="top"
             src={PingScreenshot}
@@ -55,7 +55,7 @@ export const Projects = () => (
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card style={{margin: '5px'}}>
           <Card.Img
             variant="top"
             src={CordialScreenshot}
