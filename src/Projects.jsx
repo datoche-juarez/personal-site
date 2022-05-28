@@ -8,7 +8,7 @@ import CordialScreenshot from "./assets/CSScreenshot.png";
 export const Projects = () => (
   <div>
     <h1>Projects:</h1>
-    
+
     <Container style={{ paddingTop: "20px", paddingBottom: "30px" }}>
       <CardGroup>
         <Card>
@@ -62,17 +62,29 @@ export const Projects = () => (
         </Card>
       </CardGroup>
     </Container>
-    <p>As these projects are done for private clients, the GitHub repositories are private. Feel free to contact me for further inquiries.</p>
-    <p>For other examples of my work, visit my GitHub:</p>
-    {/*TODO: Add a square github icon for projects..*/}
-    {/* <a href="#" class="fa fa-github"></a> */}
-    <Button
+    <p>
+      As these projects are done for private clients, the GitHub repositories
+      are private. Feel free to contact me for further inquiries.
+    </p>
+    <p>For other examples of my work, visit my:   <Button
       variant="dark"
       href="https://github.com/datoche-juarez/"
       target="_blank"
-      className="project-button"
+      className="button-84"
+      style={{ margin: "20px" }}
     >
       Github
-    </Button>
+    </Button></p>
+    {/*TODO: Add a square github icon for projects..*/}
+    {/* <a href="#" class="fa fa-github"></a> */}
+    {/* <Button
+      variant="dark"
+      href="https://github.com/datoche-juarez/"
+      target="_blank"
+      className="button-84"
+      style={{ margin: "20px" }}
+    >
+      Github
+    </Button> */}
   </div>
 );
