@@ -8,6 +8,7 @@ import { Container } from "react-bootstrap";
 const Styles = styled.div`
   .navbar {
     background-color: #292c2f;
+    font-size: 22px;
   }
 
   a,
