@@ -1,8 +1,8 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-// import { Nav, Navbar } from "react-bootstrap";
-// import styled from "styled-components";
 import "./Footer.css";
+import dayjs from "dayjs";
+
+var currentYear = dayjs().format("YYYY");
 
 export const Footer = () => (
   <footer class="footer-distributed">
@@ -40,7 +40,7 @@ export const Footer = () => (
         <a href="/contact">CONTACT</a>
       </p>
 
-      <p> &copy; Daniel Atoche-Juarez 2021</p>
+      <p> &copy; Daniel Atoche-Juarez {currentYear}</p>
     </div>
   </footer>
 );
