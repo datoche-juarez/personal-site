@@ -15,7 +15,7 @@ export const Projects = () => (
           <Card.Img
             variant="top"
             src={RAAScreenshot}
-            style={{ height: "45%" }}
+            style={{ height: "55%" }}
           />
           <Card.Body>
             <Card.Title>RAALive.com</Card.Title>
@@ -31,7 +31,7 @@ export const Projects = () => (
           <Card.Img
             variant="top"
             src={PingScreenshot}
-            style={{ height: "45%" }}
+            style={{ height: "55%" }}
           />
           <Card.Body>
             <Card.Title>Ping Software USA</Card.Title>
@@ -48,7 +48,7 @@ export const Projects = () => (
           <Card.Img
             variant="top"
             src={CordialScreenshot}
-            style={{ height: "45%" }}
+            style={{ height: "55%" }}
           />
           <Card.Body>
             <Card.Title>The Cordial Shoppe</Card.Title>

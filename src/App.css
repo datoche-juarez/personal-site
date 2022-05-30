@@ -53,6 +53,95 @@
 
 /* Share Buttons */
 
+
+/* Style all font awesome icons */
+.fa {
+  padding: 11px;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .3),0 3px 6px rgba(0, 0, 0, .05);
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2),0 3px 6px rgba(0, 0, 0, .05);
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-facebook:hover{
+  background: #202d49;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-twitter:hover {
+  background: #86bfeb;
+  color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  background: #007bb6;
+  color: white;
+}
+
+.fa-linkedin:hover {
+  background: #488dad;
+  color: white;
+}
+
+/* WhatsApp */
+.fa-whatsapp {
+  background: #128c7e;
+  color: white;
+}
+
+/* Pinterest */
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: #171515;
+  color: red;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #bc2a8d;
+  color: white;
+}
+
+/* Soundcloud */
+.fa-soundcloud {
+  background: #ff3a00;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Share button container stuff (seperate from reg social icons) */
+
 .share-btn-container {
   background: #fff;
   display: flex;
