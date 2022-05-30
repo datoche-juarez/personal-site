@@ -47,7 +47,7 @@ const submitForm = () => {
 const Contact = () => (
   <div className="container p-3 my-3 light text-black">
     <Container className="justify-content-lg-center">
-      <h1 className="text-left" >Contact Me</h1>
+      <h3 className="text-left" >Contact Me</h3>
       <br />
       <Form>
         <Form.Row>

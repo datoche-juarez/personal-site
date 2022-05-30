@@ -59,7 +59,7 @@ import Row from "react-bootstrap/Row";
 
 export const About = () => (
   <div>
-    <h1>About Me </h1>
+    <h3>About Me </h3>
 
     <p>
       I'm a Computer Science student curently working in the web development

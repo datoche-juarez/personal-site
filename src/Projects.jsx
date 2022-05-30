@@ -7,7 +7,7 @@ import CordialScreenshot from "./assets/CSScreenshot.png";
 
 export const Projects = () => (
   <div>
-    <h1>Projects:</h1>
+    <h3>Projects:</h3>
 
     <Container style={{ paddingTop: "20px", paddingBottom: "30px" }}>
       <CardGroup>
