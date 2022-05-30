@@ -52,18 +52,18 @@ const Contact = () => (
       <Form>
         <Form.Row>
           <Col>
-            <Form.Label text-color="warning">First Name</Form.Label>
+            <Form.Label text-color="warning">First Name:</Form.Label>
             <Form.Control id="fname" />
           </Col>
           <Col>
-            <Form.Label>Last Name</Form.Label>
+            <Form.Label>Last Name:</Form.Label>
             <Form.Control id="lname" />
           </Col>
         </Form.Row>
         <br />
         <Form.Row>
           <Col>
-            <Form.Label>Email Address</Form.Label>
+            <Form.Label>Email:</Form.Label>
             <Form.Control type="email" id="email" />
           </Col>
           <Col>
@@ -73,7 +73,7 @@ const Contact = () => (
         </Form.Row>
         <br />
         <Form.Group>
-          <Form.Label>Type message here</Form.Label>
+          <Form.Label>Message:</Form.Label>
           <Form.Control as="textarea" rows="5" id="message" />
         </Form.Group>
         <br />
