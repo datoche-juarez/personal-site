@@ -63,6 +63,20 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, .3),0 3px 6px rgba(0, 0, 0, .05);
 }
 
+.alert-danger {
+  background-color: #ed2224!important;
+  color: white!important;
+  opacity: .75;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2),0 3px 6px rgba(0, 0, 0, .05);
+}
+
+.alert-success {
+  background-color: #292c2f!important;
+  color: white!important;
+  opacity: .75;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2),0 3px 6px rgba(0, 0, 0, .05);
+}
+
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
