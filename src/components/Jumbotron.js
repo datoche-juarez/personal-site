@@ -5,14 +5,6 @@ import styled from "styled-components";
 import DAJBanner from "../assets/Banner.png";
 
 const Styles = styled.div`
-  // .jumbo {
-  //   background-size: cover;
-  //   color: #0000;
-  //   height: 330px;
-  //   position: relative;
-  //   z-index: -2;
-  // }
-
   .jumbo {
     background: url(${DAJBanner}) no-repeat fixed bottom;
     background-size: cover;
@@ -25,12 +17,23 @@ const Styles = styled.div`
   .overlay {
     background-color: #ff7733;
     opacity: 0.13;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     z-index: -1;
+  }
+
+  .dan-text {
+    font-size: 100px;
+    font-color: #ed2224;
+    font-weight: 1000;
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 70px;
   }
 `;
 
@@ -38,8 +41,10 @@ export const Jumbotron = () => (
   <Styles>
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
-      <Container style={{ color: "#000" }}>
-        <h1 style={{color: "#901e33"}}></h1>
+      <Container style={{ color: "#FFF" }}>
+        <div className="dan-text">
+        <p>Daniel Atoche-Juarez</p>
+        </div>
       </Container>
     </Jumbo>
   </Styles>

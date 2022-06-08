@@ -19,14 +19,14 @@ const submitForm = () => {
 
   axios
     .post(
-      "https://ovetc22hoh.execute-api.us-east-2.amazonaws.com/dev/contact",
+      "https://0iou5sn1he.execute-api.us-east-2.amazonaws.com/dev/contact",
       {
         Name:
           document.getElementById("fname").value +
           " " +
           document.getElementById("lname").value,
         Email: document.getElementById("email").value,
-        Service: "The Way Forward Project",
+        Service: "danatochejuarez.com",
         Mobile: document.getElementById("mobile").value,
         Message: document.getElementById("message").value,
       },
