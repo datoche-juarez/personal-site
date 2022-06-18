@@ -44,6 +44,15 @@
   box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
 }
 
+.form-control:focus{
+  border-color: #292c2f;
+  /* box-shadow: 0 0 0 0.1rem #292c2f; */
+  /* background-color: #292c2f!important; */
+  /* color: white!important; */
+  /* opacity: .75; */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2),0 3px 6px rgba(0, 0, 0, .05);
+}
+
 @media (max-width: 420px) {
   .button-84 {
     height: 48px;
