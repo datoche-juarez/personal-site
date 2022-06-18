@@ -1,7 +1,9 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import './Home.css';
 
 export const Home = () => (
-  <div>
+  <Container className='home-container'>
     <h3>Welcome...</h3>
     <p>
       Thank you for visiting my website! I am currently a Computer Science
@@ -12,5 +14,5 @@ export const Home = () => (
       people. My goal is to continue pursuing my dreams and have some
       interesting experiences along the way.
     </p>
-  </div>
+  </Container>
 );
