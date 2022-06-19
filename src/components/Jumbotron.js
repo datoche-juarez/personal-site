@@ -34,6 +34,7 @@ const Styles = styled.div`
     bottom: 0;
     right: 0;
     padding-right: 70px;
+    padding-left: 70px;
   }
 `;
 
