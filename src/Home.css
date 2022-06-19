@@ -1,4 +1,7 @@
 .home-container {
     margin-bottom: 40px;
     margin-top: 10px;
+    /* outline: .5px solid black; */
+    padding: 80px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .3),0 3px 6px rgba(0, 0, 0, .05);
 }
