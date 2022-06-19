@@ -118,24 +118,24 @@ const Contact = () => (
     </Container>
     <Container className='social-icon-container'>
       <Row>
-        <Col xs={1}>
+        <Col xs={1} id='facebook-contact'>
           <a
             href="https://www.facebook.com/daniel.atochejuarez"
             target="_blank"
             class="fa fa-facebook"
           ></a>
         </Col>
-        <Col xs={1}>
+        <Col xs={1} id='linkedin-contact'>
           <a
             href="https://www.linkedin.com/in/daniel-atoche-juarez-7272a3233/"
             target="_blank"
             class="fa fa-linkedin"
           ></a>
         </Col>
-        <Col xs={1}>
+        <Col xs={1} id='github-contact'>
           <a href="https://github.com/datoche-juarez/" target="_blank" class="fa fa-github"></a>
         </Col>
-        <Col xs={1}>
+        <Col xs={1} id='whatsapp-contact'>
           <a href="https://wa.me/13136752860" target="_blank" class="fa fa-whatsapp"></a>
         </Col>
       </Row>

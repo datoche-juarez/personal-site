@@ -70,6 +70,22 @@
 }
 
 /* Style all font awesome icons */
+#facebook-contact {
+  margin: 0px 30px 0px 30px;
+}
+
+#linkedin-contact {
+  margin: 0px 30px 0px 30px;
+}
+
+#github-contact {
+  margin: 0px 30px 0px 30px;
+}
+
+#whatsapp-contact {
+  margin: 0px 30px 0px 30px;
+}
+
 .fa {
   padding: 11px;
   font-size: 30px;
