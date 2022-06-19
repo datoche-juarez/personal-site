@@ -24,7 +24,13 @@ export const Projects = () => (
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Button
+              href="http://raalive.com"
+              target="_blank"
+              className="card-button"
+            >
+              Check it out
+            </Button>
           </Card.Footer>
         </Card>
         <Card>
@@ -41,7 +47,13 @@ export const Projects = () => (
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Button
+              href="https://www.pingsoftwareusa.com/home"
+              target="_blank"
+              className="card-button"
+            >
+              Check it out
+            </Button>
           </Card.Footer>
         </Card>
         <Card>
@@ -57,7 +69,13 @@ export const Projects = () => (
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Button
+              href="https://www.cordial-shoppe.com/index"
+              target="_blank"
+              className="card-button"
+            >
+              Check it out
+            </Button>
           </Card.Footer>
         </Card>
       </CardGroup>
@@ -66,25 +84,17 @@ export const Projects = () => (
       As these projects are done for private clients, the GitHub repositories
       are private. Feel free to contact me for further inquiries.
     </p>
-    <p>For other examples of my work, visit my:   <Button
-      variant="dark"
-      href="https://github.com/datoche-juarez/"
-      target="_blank"
-      className="button-84"
-      style={{ margin: "20px" }}
-    >
-      Github
-    </Button></p>
-    {/*TODO: Add a square github icon for projects..*/}
-    {/* <a href="#" class="fa fa-github"></a> */}
-    {/* <Button
-      variant="dark"
-      href="https://github.com/datoche-juarez/"
-      target="_blank"
-      className="button-84"
-      style={{ margin: "20px" }}
-    >
-      Github
-    </Button> */}
+    <p>
+      For other examples of my work, visit my:{" "}
+      <Button
+        variant="dark"
+        href="https://github.com/datoche-juarez/"
+        target="_blank"
+        className="project-button"
+        style={{ margin: "20px" }}
+      >
+        Github
+      </Button>
+    </p>
   </div>
 );
