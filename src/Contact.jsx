@@ -90,7 +90,7 @@ const Contact = () => (
           style={{ display: "none" }}
           role="alert"
         >
-          Thank you for the feedback!
+          Message sent successfully! I will get back to you as soon as possible.
         </div>
         <br />
         {/* <Button 
