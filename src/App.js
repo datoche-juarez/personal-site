@@ -7,7 +7,7 @@ import { Projects } from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import { NoMatch } from "./NoMatch.jsx";
 import { Layout } from "./components/Layout.jsx";
-import { NavigationBar } from "./components/NavigationBar.js";
+import NavigationBar from "./components/NavigationBar.js";
 import { Jumbotron } from "./components/Jumbotron.js";
 import { Footer } from "./components/Footer.jsx";
 
