@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
@@ -43,6 +43,21 @@ const Styles = styled.div`
 
 const NavigationBar = () => {
   const [expanded, setExpanded] = useState(false);
+  const [activeLink, setActiveLink] = useState("");
+
+  useEffect(() => {
+    console.log("activeLink useEffect:", activeLink);
+  }, [activeLink])
+
+  // handleClick function:
+  const handleClick = (linkId) => {
+    if (expanded) {
+      setExpanded(!expanded);
+    }
+      setActiveLink(linkId);
+
+  }
+
   return(
   <Styles>
     <Navbar expand="lg" variant="dark" expanded={expanded}>
@@ -58,18 +73,18 @@ const NavigationBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Item>
-                <Nav.Link>
-                  <Link to="/" onClick={() => setExpanded(false)}>HOME</Link>
+                <Nav.Link id='home-link'>
+                  <Link to="/" onClick={() => handleClick('home-link')}>HOME</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link>
-                  <Link to="/about" onClick={() => setExpanded(false)}>ABOUT</Link>
+                <Nav.Link id='about-link'>
+                  <Link to="/about" onClick={() => handleClick('about-link')}>ABOUT</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link>
-                  <Link to="/projects" onClick={() => setExpanded(false)}>PROJECTS</Link>
+                <Nav.Link id='projects-link'>
+                  <Link to="/projects" onClick={() => handleClick('projects-link')}>PROJECTS</Link>
                 </Nav.Link>
               </Nav.Item>
               {/* <Nav.Item>
@@ -78,8 +93,8 @@ const NavigationBar = () => {
                 </Nav.Link>
               </Nav.Item> */}
               <Nav.Item>
-                <Nav.Link>
-                  <Link to="/contact" onClick={() => setExpanded(false)}>CONTACT</Link>
+                <Nav.Link id='contact-link'>
+                  <Link to="/contact" onClick={() => handleClick('contact-link')}>CONTACT</Link>
                 </Nav.Link>
               </Nav.Item>
             </Nav>
