@@ -8,6 +8,12 @@
   padding-bottom: '30px';
 }
 
+.social-row {
+  background-color: green;
+  justify-content: center!important;
+  margin: 0px;
+}
+
 .button-84 {
   align-items: center;
   background-color: initial;
@@ -70,19 +76,27 @@
 
 /* Style all font awesome icons */
 #facebook-contact {
-  margin: 0px 30px 0px 30px;
+  /* margin-left: 30px; */
+  margin-right: 30px;
+  padding: 0px;
 }
 
 #linkedin-contact {
-  margin: 0px 30px 0px 30px;
+  /* margin-left: 30px; */
+  margin-right: 30px;
+  padding: 0px;
 }
 
 #github-contact {
-  margin: 0px 30px 0px 30px;
+  /* margin-left: 30px; */
+  margin-right: 30px;
+  padding: 0px;
 }
 
 #whatsapp-contact {
-  margin: 0px 30px 0px 30px;
+  /* margin-left: 30px; */
+  margin-right: 30px;
+  padding: 0px;
 }
 
 .fa {
