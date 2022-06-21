@@ -50,22 +50,22 @@ const Contact = () => (
       <br />
       <Form className='contact-form'>
         <Form.Row>
-          <Col>
+          <Col lg={true}>
             <Form.Label text-color="warning">First Name:</Form.Label>
             <Form.Control id="fname" />
           </Col>
-          <Col>
+          <Col lg={true}>
             <Form.Label>Last Name:</Form.Label>
             <Form.Control id="lname" />
           </Col>
         </Form.Row>
         <br />
         <Form.Row>
-          <Col>
+          <Col lg={true}>
             <Form.Label>Email:</Form.Label>
             <Form.Control type="email" id="email" />
           </Col>
-          <Col>
+          <Col lg={true}>
             <Form.Label>Mobile</Form.Label>
             <Form.Control type="phone" id="mobile" />
           </Col>
