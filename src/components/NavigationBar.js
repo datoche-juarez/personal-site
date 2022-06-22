@@ -46,11 +46,7 @@ const NavigationBar = () => {
   const [activeLink, setActiveLink] = useState("");
 
   useEffect (() => {
-    console.log("render");
-    // setActiveLink(window.location.pathname);
-    console.log('window.location.pathname', window.location.pathname);
     if (!activeLink) {
-      console.log("no active link");
       if (window.location.pathname === "/") {
         setActiveLink('home-link');
       }
@@ -65,10 +61,6 @@ const NavigationBar = () => {
     }
     }
   }, []);
-
-  useEffect(() => {
-    console.log("activeLink useEffect:", activeLink);
-  }, [activeLink])
 
   // handleClick function:
   const handleClick = (linkId) => {
