@@ -29,7 +29,7 @@ export const Projects = () => (
               target="_blank"
               className="card-button"
             >
-              Check it out
+              Go
             </Button>
           </Card.Footer>
         </Card>
@@ -52,7 +52,7 @@ export const Projects = () => (
               target="_blank"
               className="card-button"
             >
-              Check it out
+              Go
             </Button>
           </Card.Footer>
         </Card>
@@ -74,7 +74,7 @@ export const Projects = () => (
               target="_blank"
               className="card-button"
             >
-              Check it out
+              Go
             </Button>
           </Card.Footer>
         </Card>
