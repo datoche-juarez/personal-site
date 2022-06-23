@@ -12,13 +12,17 @@ const Styles = styled.div`
     font-size: 22px;
   }
 
+  .navbar-toggler {
+    background-color: red;
+    margin: 5px;
+    float: right;
+  }
+
   a,
   .navbar-brand,
   .navbar-nav,
   .nav-link {
     color: #ffffff;
-    padding-top: 15px;
-    text-align: center;
 
     &:hover {
       color: #ed2224;
@@ -26,19 +30,21 @@ const Styles = styled.div`
   }
   .navbar-brand {
     float: left;
-    margin: 5px;
   }
 
   .navbar-brand:hover {
-    margin-bottom: 5px;
+    
     .frame {
       box-shadow: 3px 5px 10px gray !important;
     }
   }
 
-  .container {
-    margin: auto;
+  #nav-div {
+    background-color: green;
+    display: flex;
+    align-items: center;
   }
+
 `;
 
 const NavigationBar = () => {
@@ -75,7 +81,7 @@ const NavigationBar = () => {
   <Styles>
     <Navbar expand="lg" variant="dark" expanded={expanded}>
       <Container>
-        <div className="w-100 small text-right align-self-end">
+        <div className="w-100 small text-center align-self-end" id='nav-div'>
           <Navbar.Brand href="/">
             <div className="frame">
               <img src={DAJLogo} weign="40" height="60" />
