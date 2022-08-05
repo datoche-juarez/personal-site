@@ -5,17 +5,20 @@ import styled from "styled-components";
 
 import { Container } from "react-bootstrap";
 import DAJLogo from "../assets/DajLogo3.png";
+// import './NavigationBar.css';
 
 const Styles = styled.div`
   .navbar {
     background-color: #292c2f;
     font-size: 22px;
+    display: flex;
   }
 
   .navbar-toggler {
-    background-color: red;
+    // background-color: red;
     margin: 5px;
     float: right;
+    margin-right: 0px;
   }
 
   a,
@@ -29,20 +32,22 @@ const Styles = styled.div`
     }
   }
   .navbar-brand {
-    float: left;
+    float: right;
   }
 
   .navbar-brand:hover {
     
     .frame {
       box-shadow: 3px 5px 10px gray !important;
+      background-color: #292c2f;
     }
   }
 
   #nav-div {
-    background-color: green;
+    // background-color: green;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
 `;
