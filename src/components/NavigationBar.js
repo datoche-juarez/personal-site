@@ -97,17 +97,17 @@ const NavigationBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Item>
-                <Nav.Link id='home-link' style={ activeLink == 'home-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
+                <Nav.Link id='home-link' style={ activeLink === 'home-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
                   <Link to="/" onClick={() => handleClick('home-link')}>HOME</Link>
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item style={ activeLink == 'about-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
+              <Nav.Item style={ activeLink === 'about-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
                 <Nav.Link id='about-link'>
                   <Link to="/about" onClick={() => handleClick('about-link')}>ABOUT</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link id='projects-link' style={ activeLink == 'projects-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
+                <Nav.Link id='projects-link' style={ activeLink === 'projects-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
                   <Link to="/projects" onClick={() => handleClick('projects-link')}>PROJECTS</Link>
                 </Nav.Link>
               </Nav.Item>
@@ -117,7 +117,7 @@ const NavigationBar = () => {
                 </Nav.Link>
               </Nav.Item> */}
               <Nav.Item>
-                <Nav.Link id='contact-link' style={ activeLink == 'contact-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
+                <Nav.Link id='contact-link' style={ activeLink === 'contact-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
                   <Link to="/contact" onClick={() => handleClick('contact-link')}>CONTACT</Link>
                 </Nav.Link>
               </Nav.Item>

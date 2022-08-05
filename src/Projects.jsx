@@ -27,6 +27,7 @@ export const Projects = () => (
             <Button
               href="http://raalive.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="card-button"
             >
               Go
@@ -50,6 +51,7 @@ export const Projects = () => (
             <Button
               href="https://www.pingsoftwareusa.com/home"
               target="_blank"
+              rel="noopener noreferrer"
               className="card-button"
             >
               Go
@@ -72,6 +74,7 @@ export const Projects = () => (
             <Button
               href="https://www.cordial-shoppe.com/index"
               target="_blank"
+              rel="noopener noreferrer"
               className="card-button"
             >
               Go
@@ -90,6 +93,7 @@ export const Projects = () => (
         variant="dark"
         href="https://github.com/datoche-juarez/"
         target="_blank"
+        rel="noopener noreferrer"
         className="project-button"
         style={{ margin: "20px" }}
       >
