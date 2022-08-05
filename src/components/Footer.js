@@ -4,7 +4,7 @@ import dayjs from "dayjs";
 
 var currentYear = dayjs().format("YYYY");
 
-const Footer = (NavigationBar) => {
+const Footer = () => {
 const [activeFooterLink, setActiveFooterLink] = useState("");
 
 useEffect (() => {
