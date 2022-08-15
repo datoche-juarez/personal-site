@@ -101,8 +101,8 @@ const NavigationBar = () => {
                   <Link to="/" onClick={() => handleClick('home-link')}>HOME</Link>
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item style={ activeLink === 'about-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
-                <Nav.Link id='about-link'>
+              <Nav.Item >
+                <Nav.Link id='about-link' style={ activeLink === 'about-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>
                   <Link to="/about" onClick={() => handleClick('about-link')}>ABOUT</Link>
                 </Nav.Link>
               </Nav.Item>
