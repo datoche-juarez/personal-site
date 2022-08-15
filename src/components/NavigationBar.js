@@ -56,8 +56,25 @@ const NavigationBar = () => {
   const [expanded, setExpanded] = useState(false);
   const [activeLink, setActiveLink] = useState("");
 
+  // useEffect (() => {
+  //   if (!activeLink) {
+  //     if (window.location.pathname === "/") {
+  //       setActiveLink('home-link');
+  //     }
+  //     if (window.location.pathname === "/about") {
+  //       setActiveLink('about-link');
+  //     }
+  //     if (window.location.pathname === "/projects") {
+  //       setActiveLink('projects-link');
+  //   }
+  //   if (window.location.pathname === "/contact") {
+  //     setActiveLink('contact-link');
+  //   }
+  //   }
+  // }, []);
+
+
   useEffect (() => {
-    if (!activeLink) {
       if (window.location.pathname === "/") {
         setActiveLink('home-link');
       }
@@ -70,8 +87,12 @@ const NavigationBar = () => {
     if (window.location.pathname === "/contact") {
       setActiveLink('contact-link');
     }
-    }
   }, []);
+
+  // useEffect (() => {
+  //   console.log("window.location.pathname in nav component: ", window.location.pathname);
+  // } , [window.location.pathname]);
+  
 
   // handleClick function:
   const handleClick = (linkId) => {
@@ -79,7 +100,6 @@ const NavigationBar = () => {
       setExpanded(!expanded);
     }
       setActiveLink(linkId);
-
   }
 
   return(

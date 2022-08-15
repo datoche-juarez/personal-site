@@ -1,32 +1,35 @@
 import { React, useState, useEffect } from "react";
 import "./Footer.css";
 import dayjs from "dayjs";
+import { useLocation } from "react-router-dom";
 
 var currentYear = dayjs().format("YYYY");
 
 const Footer = () => {
 const [activeFooterLink, setActiveFooterLink] = useState("");
 
+let location = useLocation();
+
 useEffect (() => {
-  if (!activeFooterLink) {
-    if (window.location.pathname === "/") {
+    if (location.pathname === "/") {
       setActiveFooterLink('home-link');
-      console.log("home-link from footer...");
     }
-    if (window.location.pathname === "/about") {
+    if (location.pathname === "/about") {
       setActiveFooterLink('about-link');
-      console.log("about-link from footer...");
     }
-    if (window.location.pathname === "/projects") {
+    if (location.pathname === "/projects") {
       setActiveFooterLink('projects-link');
-      console.log("projects-link from footer...");
   }
-  if (window.location.pathname === "/contact") {
+  if (location.pathname === "/contact") {
     setActiveFooterLink('contact-link');
-    console.log("contact-link from footer...");
   }
-  }
-}, []);
+  
+  // console.log("location.pathname:", location.pathname);
+}, [location]);
+
+// useEffect (() => {
+//   console.log("window.location.pathname in footer component: ", window.location.pathname);
+// } , [window.location.pathname]);
 
 // handleClick function:
 const handleClick = (linkId) => {
@@ -57,17 +60,17 @@ return (
 
     <div class="footer-left">
       <p class="footer-links">
-        <a class="link-1" id='footer-home-link' onClick={() => handleClick('home-link')} style={ activeFooterLink == 'home-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)} href="/">
+        <a class="link-1" id='footer-home-link' onClick={() => handleClick('home-link')} style={ activeFooterLink === 'home-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)} href="/">
           HOME
         </a>
 
-        <a href="/about" id='footer-about-link' onClick={() => handleClick('about-link')} style={ activeFooterLink == 'about-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>ABOUT</a>
+        <a href="/about" id='footer-about-link' onClick={() => handleClick('about-link')} style={ activeFooterLink === 'about-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>ABOUT</a>
 
-        <a href="/projects" onClick={() => handleClick('projects-link')} style={ activeFooterLink == 'projects-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>PROJECTS</a>
+        <a href="/projects" onClick={() => handleClick('projects-link')} style={ activeFooterLink === 'projects-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>PROJECTS</a>
 
         {/* <a href="/blog">BLOG</a> */}
 
-        <a href="/contact" onClick={() => handleClick('contact-link')} style={ activeFooterLink == 'contact-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>CONTACT</a>
+        <a href="/contact" onClick={() => handleClick('contact-link')} style={ activeFooterLink === 'contact-link' ? { textDecoration: 'underline red', textDecorationThickness: '2px'} : (null)}>CONTACT</a>
       </p>
 
       <p> &copy; Daniel Atoche-Juarez {currentYear}</p>
