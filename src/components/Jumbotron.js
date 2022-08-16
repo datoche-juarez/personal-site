@@ -6,7 +6,7 @@ import DAJBanner from "../assets/Banner.png";
 
 const Styles = styled.div`
   .jumbo {
-    background: url(${DAJBanner}) no-repeat fixed bottom;
+    background: url(${DAJBanner}) no-repeat left/cover;
     background-size: cover;
     color: #0000;
     height: 530px;
@@ -26,7 +26,7 @@ const Styles = styled.div`
   }
 
   .dan-text {
-    font-size: 100px;
+    font-size: 5em;
     font-color: #ed2224;
     font-weight: 1000;
     opacity: 1;
@@ -35,6 +35,7 @@ const Styles = styled.div`
     right: 0;
     padding-right: 70px;
     padding-left: 70px;
+    margin: auto;
   }
 `;
 
