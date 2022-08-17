@@ -37,6 +37,12 @@ const Styles = styled.div`
     padding-left: 70px;
     margin: auto;
   }
+
+  @media (max-width: 350px) {
+    .dan-text {
+      padding-right: 0px;
+    }
+  }
 `;
 
 export const Jumbotron = () => (

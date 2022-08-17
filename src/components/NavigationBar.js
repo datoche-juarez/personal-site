@@ -15,9 +15,9 @@ const Styles = styled.div`
 
   .navbar-toggler {
     // background-color: red;
-    margin: 5px;
-    float: right;
-    margin-right: 0px;
+    // margin: 5px;
+    // float: right;
+    // margin-right: 0px;
   }
 
   a,
@@ -45,6 +45,9 @@ const Styles = styled.div`
   #nav-div {
     // background-color: green;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
     align-items: center;
     justify-content: space-between;
   }
