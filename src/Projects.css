@@ -1,3 +1,13 @@
+.card {
+  margin: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px!important;
+}
+
+.card-body {
+  overflow-y: scroll;
+}
+
 .project-button {
     align-items: center;
     background-color: initial;
@@ -90,10 +100,3 @@
     box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
   }
 
-.card {
-    margin: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.05);
-}
-.card-body {
-  overflow-y: scroll;
-}

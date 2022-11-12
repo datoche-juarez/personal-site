@@ -15,7 +15,7 @@ export const Projects = () => (
           <Card.Img
             variant="top"
             src={RAAScreenshot}
-            style={{ height: "55%" }}
+            style={{ height: "55%", borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
           />
           <Card.Body>
             <Card.Title>RAALive.com</Card.Title>
@@ -38,7 +38,7 @@ export const Projects = () => (
           <Card.Img
             variant="top"
             src={PingScreenshot}
-            style={{ height: "55%" }}
+            style={{ height: "55%", borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
           />
           <Card.Body>
             <Card.Title>Ping Software USA</Card.Title>
@@ -62,7 +62,7 @@ export const Projects = () => (
           <Card.Img
             variant="top"
             src={CordialScreenshot}
-            style={{ height: "55%" }}
+            style={{ height: "55%", borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
           />
           <Card.Body>
             <Card.Title>The Cordial Shoppe</Card.Title>
@@ -83,13 +83,14 @@ export const Projects = () => (
         </Card>
       </CardGroup>
     </Container>
+    <Container class="github-container" style={{border: "2px solid #999999", borderRadius: "20px", marginTop: "20px", marginBottom: "40px", padding: "35px", boxShadow: "0 10px 15px rgba(0, 0, 0, .3)"}}>
     <p>
       As these projects are done for private clients, the GitHub repositories
       are private. Feel free to contact me for further inquiries.
     </p>
     <p>
       For other examples of my work, visit my:{" "}
-      <Button
+      {/* <Button
         variant="dark"
         href="https://github.com/datoche-juarez/"
         target="_blank"
@@ -98,7 +99,9 @@ export const Projects = () => (
         style={{ margin: "20px" }}
       >
         Github
-      </Button>
+      </Button> */}
+      <a href="https://github.com/datoche-juarez/" target="_blank" rel="noopener noreferrer">GitHub</a>
     </p>
+    </Container>
   </div>
 );
