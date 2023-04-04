@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import { Button, Container, Row, Col, Card, CardGroup } from "react-bootstrap";
 import RAAScreenshot from "./assets/RAAScreenshot.png";
-import PingScreenshot from "./assets/PingScreenshot.png";
+import PingScreenshot from "./assets/ping4.png";
 import CordialScreenshot from "./assets/CSScreenshot.png";
 
 export const Projects = () => (
